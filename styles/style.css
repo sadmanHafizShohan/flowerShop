@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 75%;
+    max-width: 1420px;
+    margin: 0 auto;
+}
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section-title h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.section-title p{
+    width: 500px;
+    margin-bottom: 30px;
+}
+/* banner section css */
+.banner-section{
+    background-color: rgba(187, 74, 112, 0.474);
+    margin-bottom: 100px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.banner-title{
+    width: 525px;
+}
+.banner-title h1{
+    font-size: 48px;
+    font: bold;
+    font-weight: 900;
+}
+.banner-title p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.banner-img img{
+    width: 100%;
+    height: 100vh;
+}
+.button{
+    background-color: rgb(221, 90, 134);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(215, 113, 147);
+    transition: all 0.5s;
+}
+
+/* features section css */
+.features-images{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: end;
+    text-align: center;
+    text-decoration: underline;
+    font: bold;
+}
+.Redish, .Pinkish , .aquaus{  
+    border-radius: 300px 300px 0 0;
+}
+.flower img{
+    height: 400px;
+    width: 300px;
+    padding: 20px 5px 0 5px;
+}
+.flower p{
+    margin-top: 15px;
+}
+.Redish{
+    background-color: rgba(208, 72, 140, 0.474);
+}
+.Pinkish{
+    background-color: rgba(187, 74, 112, 0.474);
+}
+.aquaus{
+    background-color: rgba(127, 255, 212, 0.387);
+}
+.support-section{
+    margin: 100px 0;
+}
+.support{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; 
+    background-color: aliceblue;
+    padding: 5%;
+    border-radius: 5px; 
+}
+.support img{
+    width: 50px;
+    height: 50px;
+}
+.discount-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(187, 74, 112, 0.097);
+    margin-top: 100px;
+    padding: 2% 10%;
+}
+.discount-title{
+    width: 100%;
+    text-align: center;
+}
+.discount-title h1{
+    font-size: 32px;
+}
+.discount-title p{
+    margin: 10px 0;
+}
+.text{
+    color: rgb(216, 46, 103) ;
+}
+.discount-img img{
+    width: 280px;
+}
+.instagram-section{
+    margin: 100px 0;
+}
+.card-images{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.card img{
+    width: 250px;
+    height: 280px;
+}
+.subscribe-section{
+    background-image: url(/images/Rectangle\ 9.png);
+    padding: 5% 0;
+}
+.subscribe-title{
+    text-align: center;
+}
+.subscribe-title h1{
+    margin: 5px;
+    font-size: 28px;
+}
+.subscribe-form{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 30px;
+}
+.subscribe-form input{
+   border: none;
+   width: 60%;
+}
+.footer-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10%;
+    margin-top: 100px;
+}
+.footer-section h1{
+    font-size: 32px;
+    margin: 10px 0;
+}
+.footer p{
+    margin-bottom: 30px;
+}
